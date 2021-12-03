@@ -33,6 +33,13 @@ a:hover {
 
 /* main page */
 
+.menu-mainpage {
+	display: block;
+	position: absolute;
+	top: 1ex;
+	right: 1ex;
+}
+
 #banner {
 	display: table;
 	width: 60ex;

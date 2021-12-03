@@ -50,6 +50,7 @@ body {
 #bigsearch-random {
 	display: inline-block;
 	margin-left: 5ex;
+	text-decoration: none;
 }
 
 #stats-group {

@@ -96,6 +96,11 @@ header {
 	width: 5ex;
 }
 
+#header-title {
+	font-weight: bold;
+	font-size: xx-large;
+}
+
 #search-input-group {
 	margin-bottom: 2ex;
 	border: solid 0.3ex dodgerblue;
@@ -112,4 +117,24 @@ header {
 
 label[for=search-sort] {
 	margin-left: 3ex;
+}
+
+/* LOGIN */
+
+#login-group {
+	font-size: xx-large;
+	width: 50ex;
+	margin: 5ex auto;
+}
+#login-group > a {
+	display: block;
+	margin: 1ex 0;
+	padding: 0.5ex;
+	text-align: center;
+	background: var(--background-1);
+	text-decoration: none;
+	color: inherit;
+}
+#login-group > a:hover {
+	background: dodgerblue;
 }

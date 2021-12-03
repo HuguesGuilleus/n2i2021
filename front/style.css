@@ -23,7 +23,6 @@ body {
 	border-radius: 1ex;
 	padding: 1.5ex 1.5ex 0.6ex;
 }
-
 #search-input-group > label {
 	display: table;
 	padding: 0 1ex;
@@ -33,7 +32,6 @@ body {
 	background: dodgerblue;
 	border-radius: 0.5ex;
 }
-
 #search-input-group > input {
 	all: unset;
 	width: 100%;
@@ -46,12 +44,30 @@ body {
 	grid-gap: 1ex;
 	grid-template-columns: auto 1fr auto;
 }
-
 #search-filter {
 	font: unset;
 }
-
 #bigsearch-random {
 	display: inline-block;
 	margin-left: 5ex;
+}
+
+#stats-group {
+	width: 60vw;
+	display: flex;
+	margin: 0 auto 5ex;
+	padding: 0;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.stats-item {
+	display: block;
+	margin: 1ex;
+	padding: 1.5ex;
+	flex-basis: 20ex;
+	background: #ededf0;
+}
+.stats-nb {
+	display: block;
+	font-size: 400%;
 }

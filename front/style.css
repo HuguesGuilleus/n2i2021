@@ -1,0 +1,57 @@
+body {
+	font-family: Lato, sans-serif;
+	margin: 0;
+	background: #f9f9fa;
+	color: black;
+	font-size: large;
+}
+
+#banner {
+	display: table;
+	width: 60ex;
+	margin: 25vh auto 3ex;
+}
+
+#bigsearch-group {
+	width: 60vw;
+	margin: 0 auto 5ex;
+}
+
+#search-input-group {
+	margin-bottom: 2ex;
+	border: solid 0.5ex dodgerblue;
+	border-radius: 1ex;
+	padding: 1.5ex 1.5ex 0.6ex;
+}
+
+#search-input-group > label {
+	display: table;
+	padding: 0 1ex;
+	background: #f9f9fa;
+	margin-top: -1.5em;
+	margin-left: 1ex;
+	background: dodgerblue;
+	border-radius: 0.5ex;
+}
+
+#search-input-group > input {
+	all: unset;
+	width: 100%;
+	font-size: xx-large;
+	margin-top: 0.3ex;
+}
+
+#bigsearch-bottom {
+	display: grid;
+	grid-gap: 1ex;
+	grid-template-columns: auto 1fr auto;
+}
+
+#search-filter {
+	font: unset;
+}
+
+#bigsearch-random {
+	display: inline-block;
+	margin-left: 5ex;
+}

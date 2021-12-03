@@ -115,8 +115,13 @@ header {
 	padding: 1ex 2ex;
 	background: var(--background-1);
 }
+#menu-button-close:hover,
+#menu-button:hover {
+	background: dodgerblue;
+}
 #beacon,
-#menu-button > img {
+#menu-button > img,
+#menu-button-close > img {
 	display: block;
 	width: 5ex;
 }

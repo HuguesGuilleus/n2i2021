@@ -27,8 +27,13 @@ async function loadmenu() {
 			menuGroup.hidden = false;
 		}
 	}
+	document.getElementById("menu-button-close").addEventListener("click", menuSwitch);
 	document.getElementById("menu-button").addEventListener("click", menuSwitch);
-	document.addEventListener("keydown", menuSwitch);
+	document.addEventListener("keydown", event => {
+		if (event.key === "Escape" && bodyList) {
+			menuSwitch();
+		}
+	});
 
 	let user = {
 		isconnected: false,

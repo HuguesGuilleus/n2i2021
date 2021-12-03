@@ -11,6 +11,12 @@ body {
 	font-size: large;
 }
 
+main {
+	max-width: 80ex;
+	margin: 2ex auto;
+	padding: 1ex;
+}
+
 /* main page */
 
 #banner {
